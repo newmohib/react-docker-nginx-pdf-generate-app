@@ -1,20 +1,21 @@
-# Getting Started with Create React App
+#### Make the Script Executable: Run the following command to make the script executable:
+
+    chmod +x script.sh
+
+#### Run the Script: You can now run the script by executing:
+
+    ./script.sh
 
 ### Run with Docker
 
     docker build -t my-react-app .
-    docker run -p 3000:80 my-react-app
+    docker run -p 3001:80 my-react-app
 
 ## Available Scripts
 
 In the project directory, you can run:
 
 ### `npm start`
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 ### `npm run eject`
 
